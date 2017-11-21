@@ -1,0 +1,5 @@
+1. mkdir temp 
+2. cd ~/temp
+3. В каталог temp скачиваем свежие версии Virtual Box и Vagrant. 
+4. Устанавливаем продукты из п.3 : sudo dpkg -i "Имя файла VirtualBox.deb"
+                                   sudo dpkg -i "Имя файла Vagrant.deb"
