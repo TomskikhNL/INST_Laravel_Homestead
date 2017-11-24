@@ -3,3 +3,8 @@
 3. В каталог temp скачиваем свежие версии Virtual Box и Vagrant. 
 4. Устанавливаем продукты из п.3 : sudo dpkg -i "Имя файла VirtualBox.deb"
                                    sudo dpkg -i "Имя файла Vagrant.deb"
+5. Добавляем в vagrant box - laravel/homestead : vagrant box add laravel/homestead
+6. cd ~/temp
+7. git clone https://github.com/laravel/homestead.git Homestead
+8. cd ~/temp/Homestead
+9. Выполняем команду bash init.sh, она создаст файл Homestead.yaml в папке ~/.homestead
